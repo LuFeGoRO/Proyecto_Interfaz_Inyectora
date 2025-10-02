@@ -1,0 +1,59 @@
+.alertas{
+    display: flex;
+    flex-direction: column;
+    gap: 10em;
+    
+}
+.diagrama{ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+    border: 1px dashed black;
+    width: 50%;
+}
+.diagrama__img{
+    width: 100%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.alertas_presion{
+    display: flex;
+    gap: 0.2em;
+}
+.alertas_presion__nombre{
+    border: 1px dashed black;
+
+}
+.alertas_presion__valor{
+     border: 1px dashed black;
+}
+
+.alertas_golpes{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.indicador_formaleta{
+   border: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+}
+.opciones_de_formaleta{
+   /* border: 1px dashed black; */
+}
+.alertas_catalizador{
+     display: flex;
+        gap: 0.2em;
+}
+.alertas_catalizador__nombre{
+    border: 1px dashed black;
+}
+.alertas_catalizador__valor{
+    border: 1px dashed black;
+}

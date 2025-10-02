@@ -13,14 +13,44 @@
         <header class="encabezado">
             <h1 class="encabezado__titulo"> Interfaz inyectora</h1>
         </header>
-        <section class=" controles">
+        <section class="controles">
             <div class="diagrama"><img src="img/diagrama.png" alt=" diagrama" class="diagrama__img"></div>
             <div class="alertas">
-                <div class="alertas__presion"><p>presion</p><p>#psi</p></div>
-                <div class="alertas__golpes"></div>
-                <div class="alertas__catalizador"></div>
-                <div class="alertas__inyeccion-on"></div>
-                <div class="alertas__inyeccion-off"></div>
+                <div class="alertas_presion">
+                    <p class="alertas_presion__nombre">presion:</p>
+                    <p class="alertas_presion__valor">#psi</p>
+                </div>
+                <div class="alertas_golpes">
+                        <select class="indicador_formaleta" name="golpes">
+                            <option class="opciones_de_formaleta" value="#"><P class="opciones_de_formaleta__nombre">Seleccione numero de formaleta</P></option>
+                            <option class="opciones_de_formaleta" value="Formaleta_1">
+                                <p>Formaleta 1</p>
+                                <p class="opciones_de_formaleta__nombre">referencia:</p>
+                                <p class="opciones_de_formaleta__valor">#golpes</p>
+                            </option>
+                            <option value="Formaleta_1"> <p>Formaleta 2</p>
+                                <p class="opciones_de_formaleta__nombre">referencia:</p>
+                                <p class="opciones_de_formaleta__valor">#golpes</p></option>
+                            <option value="Formaleta_1"> <p>Formaleta 3</p>
+                                <p class="opciones_de_formaleta__nombre">referencia:</p>
+                                <p class="opciones_de_formaleta__valor">#golpes</p></option>
+                            <option value="Formaleta_1"> <p>Formaleta 4</p>
+                                <p class="opciones_de_formaleta__nombre">referencia:</p>
+                                <p class="opciones_de_formaleta__valor">#golpes</p></option>
+                        </select>
+                </div>
+                <div class="alertas_catalizador">
+                    <p class="alertas_catalizador__nombre">Catalizador recomendado:</p>
+                    <p class="alertas_catalizador__valor">%cat</p>
+                </div>
+                <div class="alertas__inyeccion-on">
+                    <p class="alertas_presion__nombre">Inyeccion en marcha</p>
+                    
+                </div>
+                <div class="alertas__inyeccion-off">
+                    <p class="alertas_presion__nombre">No inyectado</p>
+                    
+                </div>
             </div>
         </section>
         <section class="registros">
@@ -46,12 +76,22 @@
                     <h4 class="t_encabezado__titulo">numero de formaleta</h4>
                 </th>
                 <tr>
-                    <td class="t-cuerpo"><p class="t-cuerpo__dato"></p></td>
-                    <td class="t-cuerpo"><p class="t-cuerpo__dato"></p></td>
-                    <td class="t-cuerpo"><p class="t-cuerpo__dato"></p></td>
-                    <td class="t-cuerpo"><p class="t-cuerpo__dato"></p></td>
-                    <td class="t-cuerpo"><p class="t-cuerpo__dato"></p></td>
-                    
+                    <td class="t-cuerpo">
+                        <p class="t-cuerpo__dato"></p>
+                    </td>
+                    <td class="t-cuerpo">
+                        <p class="t-cuerpo__dato"></p>
+                    </td>
+                    <td class="t-cuerpo">
+                        <p class="t-cuerpo__dato"></p>
+                    </td>
+                    <td class="t-cuerpo">
+                        <p class="t-cuerpo__dato"></p>
+                    </td>
+                    <td class="t-cuerpo">
+                        <p class="t-cuerpo__dato"></p>
+                    </td>
+
                 <tr>
             </table>
         </section>
