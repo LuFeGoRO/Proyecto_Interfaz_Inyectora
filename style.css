@@ -1,5 +1,6 @@
-@import url(componentes/alertas.css);
+@import url(componentes/controles.css);
 @import url(componentes/medias.css);
+@import url(componentes/registros.css);
 
 *{
     margin: 0;
@@ -13,21 +14,17 @@
     width: 100vw;
     height: max-content;
     gap: 3em;
-    
  }
+
  .encabezado{
+   align-items: center;
    width: 100%;
    border: 1px dashed black;
  }
 
 
- .controles{
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
-    width: 100%;
-    gap: 3em ;
- }
+
+
 
  footer{
     width: 100%;

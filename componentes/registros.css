@@ -1,0 +1,17 @@
+ .registros{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    width: 100%;
+    gap: 1em ;
+    border: 1px dashed black;
+ }
+
+ .tabla-main{
+    border: 1px dashed black;
+ }
+ .t-cuerpo{
+    text-align: center;
+    border: 1px dashed black;
+ }
