@@ -1,0 +1,9 @@
+:root {/*declaro variables de color para su uso*/
+    --fondo-color: #18304c;
+    --encabezado-color: #11293b;
+    --piedepagina-color: rgb(18 70 107);
+    --letra-color: #fff;
+    --alerta-verde-color: rgb(14, 216, 14);
+    --alerta-amarilla-color: rgb(243, 239, 20);
+    --alerta-roja-color:#e40707;;
+}

@@ -1,12 +1,20 @@
 @import url(componentes/controles.css);
 @import url(componentes/medias.css);
 @import url(componentes/registros.css);
+@import url(componentes/root.css);
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+body{
+   color: var(--letra-color);
+   background-color: var(--fondo-color);
+   width: 98.7vw;
 }
  main{
     display:flex;
@@ -18,9 +26,11 @@
  }
 
  .encabezado{
+   background-color: var(--encabezado-color);
    align-items: center;
    width: 90%;
-   border: 1px dashed black;
+   text-align: center;
+   
  }
 
 
@@ -29,5 +39,5 @@
 
  footer{
     width: 90%;
-    border: 1px dashed black;
+    background-color: var(--piedepagina-color);
  }

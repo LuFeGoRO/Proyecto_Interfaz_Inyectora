@@ -5,7 +5,8 @@
     flex-wrap: wrap;
     flex: 1;
     width: 90vw;
-    gap: 1px;
+    gap: 1em;
+    justify-content: center;
  }
 .diagrama{ 
     display: flex;
@@ -13,7 +14,7 @@
     flex-wrap: wrap;
     align-items: start;
     border: 1px dashed black;
-    width: 100%;
+    width: max-content;
 }
     .diagrama__img{
     width: 100%;
@@ -22,8 +23,11 @@
 }
 .alertas{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
     gap: 0.5em;
+    
 }
 .alertas_presion{
     display: flex;
@@ -36,5 +40,6 @@
  .t_encabezado{
    width: 20%;
  }
+
 
 }

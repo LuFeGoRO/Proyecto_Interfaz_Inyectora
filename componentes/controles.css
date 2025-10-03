@@ -3,12 +3,16 @@
     flex-wrap: wrap;
     flex: 1;
     width: 90%;
-    gap: 3em ;
+    justify-content: space-between;
+    border: 1px dashed black;
+   
  }
 .alertas{
     display: flex;
     flex-direction: column;
-    gap: 10em;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px dashed black;
     
 }
 .diagrama{ 
@@ -17,7 +21,8 @@
     flex-wrap: wrap;
     align-items: start;
     border: 1px dashed black;
-    width: 50%;
+    width: 30%;
+    height: max-content;
 }
 .diagrama__img{
     width: 100%;
