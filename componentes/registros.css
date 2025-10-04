@@ -6,6 +6,7 @@
     width: 90%;
     gap: 1em ;
     border: 1px dashed black;
+    background-color: var(--fondo-seccion-color);
  }
 
  .tabla-main{
