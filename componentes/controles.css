@@ -33,42 +33,57 @@
 
 }
 
-.alertas_presion{
-    display: flex;
-    gap: 0.2em;
-}
-.alertas_presion__nombre{
-    border: 1px dashed black;
 
-}
-.alertas_presion__valor{
-     border: 1px dashed black;
-}
 
 .alertas_golpes{
+    /* background-color: var(--fondos-alertas-color); */
     display: flex;
     flex-wrap: wrap;
-    
 
 }
 .indicador_formaleta{
-   border: 1px dashed black;
+    background-color: var(--fondos-alertas-selecion-color);
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--letra-color);
+    font-size: 1em;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    
-    
 }
-.opciones_de_formaleta{
-   border: 1px dashed black;
-}
+
 .alertas_catalizador{
      display: flex;
         gap: 0.2em;
 }
 .alertas_catalizador__nombre{
-    border: 1px dashed black;
+    background-color: var(--fondos-alertas-color);
+    padding: 10px;
+    border-radius: 20px 0px 0px 20px;
+    color: var(--letra-color);
+    font-size: 1em;
 }
 .alertas_catalizador__valor{
-    border: 1px dashed black;
+    background-color: var(--fondos-alertas-color);
+    padding: 10px;
+    border-radius: 0px 20px 20px 0px;
+    color: var(--letra-color);
+    font-size: 1em;
+}
+.alertas__inyeccion-on{
+    background-color: var(--alerta-verde-color);
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--letra-color);
+    font-size: 1em;
+}
+.alertas__inyeccion-off{
+    background-color: var(--alerta-roja-color);
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--letra-color);
+    font-size: 1em;
+}
+.indicador_formaleta:focus{
+    outline: none;
 }

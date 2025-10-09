@@ -25,16 +25,13 @@
 }
 .alertas{
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     flex-wrap: wrap;
     width: 100%;
     gap: 0.5em;
     
 }
-.alertas_presion{
-    display: flex;
-    gap: 0.2em;
-}
+
 .alertas_catalizador{
      display: flex;
         gap: 0.2em;

@@ -2,9 +2,14 @@
     --fondo-color: #18304c;
     --encabezado-color: #11293b;
     --piedepagina-color: rgb(18 70 107);
-    --letra-color: #fff;
+    --letra-color: rgb(240, 240, 240);
+    --letra-negra-color:black;
     --alerta-verde-color: rgb(14, 216, 14);
     --alerta-amarilla-color: rgb(243, 239, 20);
     --alerta-roja-color:#e40707;
     --fondo-seccion-color: rgba(32, 70, 97, 0.63);
+    --fondos-alertas-color:rgb(57 193 233 / 58%);
+    --fondos-alertas-cuerpo-color:rgba(96, 154, 172, 0.58);
+    --fondos-alertas-cabeza-color:rgba(9, 47, 78, 0.616);
+    --fondos-alertas-selecion-color: rgba(9, 47, 78, 0.616);
 }
